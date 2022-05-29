@@ -1,0 +1,129 @@
+.banner {
+  background-image: url(../../images/showcase.jpg);
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner #name {
+  font-weight: 600;
+  font-size: 3rem;
+  padding: 2rem;
+}
+.banner #description {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.subscribe {
+  background-color: #35424a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
+.subscribe p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.subscribe input {
+  width: 250px;
+  padding: 0.5rem;
+}
+.subscribe button {
+  background-color: #E8491D;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  border-bottom: 2px solid #8e4e8b;
+}
+.logo .box > * {
+  padding: 1rem 0;
+}
+.logo img {
+  width: 6rem;
+}
+
+.navbar {
+  background-color: #35424a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.3rem solid #8e4e8b;
+}
+.navbar .left-navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .left-navbar h1 {
+  margin: 25px;
+  font-size: 2rem;
+}
+.navbar .left-navbar h1 span {
+  color: #8e4e8b;
+}
+.navbar .right-navbar {
+  margin: 25px;
+  color: #35424a;
+}
+.navbar .right-navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar .right-navbar ul li {
+  padding: 0 2rem;
+  align-items: center;
+}
+.navbar .right-navbar ul li .active {
+  color: #8e4e8b;
+}
+.navbar .right-navbar ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar .right-navbar ul li a:hover {
+  color: #fff;
+}
+
+footer {
+  background-color: #35424a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .foot {
+  margin: 20px 0;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+}
+footer img {
+  width: 10rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=index.css.map */

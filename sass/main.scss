@@ -1,0 +1,12 @@
+@import "./abstracts/variables","./abstracts/mixin";
+@import "./base/reset";
+@import "./pages/about","./pages/home","./pages/services";
+@import   "./component/nav", "./component/footer","./component/responsive";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

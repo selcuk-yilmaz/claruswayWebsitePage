@@ -1,0 +1,16 @@
+footer{
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .foot{
+        margin: 20px 0;
+        text-align: center;
+    }
+    p{
+        color: $secondaryColor;
+    }
+    img{
+        width: 10rem;
+    }
+}
